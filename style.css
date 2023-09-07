@@ -1,0 +1,66 @@
+body{
+    background-color: #ADC4CE;
+    font-size: 24px;
+    color: #13005A;
+}
+header{
+        background-color: #183D3D;
+        padding: 5px 25px ;
+        color:#ADC4CE;
+    }
+
+h1{
+    text-align: center;
+}    
+h2{
+    text-align: center;
+}
+.education{
+    display: flex;
+    background-color: #293462;
+    color: #ADC4CE;
+    
+}
+.edu{
+    margin: 0 10px;
+}
+.skills-interest{
+    display: flex;
+}
+.skin{
+    margin:  50px;
+    border: 10px dotted #F8DE22;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 50px 150px;
+}
+.img-edu{
+    display: flex;
+    margin: 0 200px;
+}
+img{
+    margin:  50px;
+}
+table{
+    margin: 0 auto;
+    margin-bottom: 20px;
+    
+}
+td{
+    padding: 0 50px;
+}
+.hobby{
+    background-color:#C08261 ;
+    padding: 50px 0;
+    color: white;
+}
+.img-hob{
+    display: flex;
+    margin: 0 200px;
+
+}
+.last-img{
+    margin: 0 350px;
+    width: 30%;
+    height: 150%;
+}
