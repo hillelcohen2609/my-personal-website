@@ -1,11 +1,14 @@
 body{
     background-color: #ADC4CE;
-    font-size: 24px;
+    font-size: 150%;
     color: #13005A;
+    margin: 0;
+    
 }
 header{
         background-color: #183D3D;
-        padding: 5px 25px ;
+        padding: 2% 2% ;
+        
         color:#ADC4CE;
     }
 
@@ -16,51 +19,99 @@ h2{
     text-align: center;
 }
 .education{
-    display: flex;
+    padding: 5% 0;
     background-color: #293462;
     color: #ADC4CE;
     
 }
+@media only screen and (min-width: 600px){
+    .education{ display: flex;}
+}
 .edu{
-    margin: 0 10px;
+    margin: 0 2%;
+    padding: 0 2%;
 }
-.skills-interest{
-    display: flex;
+
+@media only screen and (min-width: 600px){
+    .skills-interest{
+        display: flex;
+    }
+    .skin1{
+        
+       width: 40%;
+       margin-right: 5%;
+       margin-left: 5%;
+    }
+    .skin2{
+        width: 40%;
+        margin-left: 5%;
+        margin-right: 5%;
+        padding: 0 2%;
+        
+    
+    }
 }
+
+
+
+
+
+
+
+@media only screen and (max-width: 600px){
+    .skin{
+        margin-left: 2%;
+        margin-right: 2%;
+        padding: 0 2%;
+    }
+}
+
 .skin{
-    margin:  50px;
-    border: 10px dotted #F8DE22;
-    padding-left: 10px;
-    padding-right: 10px;
-    margin: 50px 150px;
-}
-.img-edu{
-    display: flex;
-    margin: 0 200px;
-}
-img{
-    margin:  50px;
-}
-table{
-    margin: 0 auto;
-    margin-bottom: 20px;
+    margin-top:  5% ;
+    margin-bottom: 5%;
+    border: 1rem dotted #F8DE22;
+    
     
 }
-td{
-    padding: 0 50px;
-}
-.hobby{
-    background-color:#C08261 ;
-    padding: 50px 0;
-    color: white;
-}
-.img-hob{
-    display: flex;
-    margin: 0 200px;
+
+
+img{
+    display: block;
+    margin:  2% auto;
+    width: 50%;
+    height: auto;
 
 }
-.last-img{
-    margin: 0 350px;
-    width: 30%;
-    height: 150%;
+
+.hobby{
+    background-color:#C08261 ;
+    padding: 5% 0;
+    color: white;
+    
+}
+@media only screen and (min-width: 600px){
+    .hobbies{
+        display: flex;
+        
+    }
+    .col1{
+        margin-left: 10% ;
+        margin-right:10% ;
+
+    }
+    .col2{
+        margin-left:10% ;
+        margin-right:10% ;
+        
+    }
+}
+
+.foot{
+   border-radius: 70%;
+}
+
+@media only screen and (max-width: 600px){
+    .hobbies{
+        text-align: center;
+    }
 }
